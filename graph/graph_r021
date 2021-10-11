@@ -1,0 +1,66 @@
+graph {
+  zenoh__9001 [label = "zenohd\n9001"]
+  zenoh__9003 [label = "zenohd\n9003"]
+  zenoh__9019 [label = "zenohd\n9019"]
+  zenoh__9005 [label = "zenohd\n9005"]
+  zenoh__9007 [label = "zenohd\n9007"]
+  zenoh__9015 [label = "zenohd\n9015"]
+  zenoh__9010 [label = "zenohd\n9010"]
+  zenoh__9017 [label = "zenohd\n9017"]
+  zenoh__9013 [label = "zenohd\n9013"]
+  zenoh__9021 [label = "zenohd\n9021"]
+  zenoh__9012 [label = "zenohd\n9012"]
+  zenoh__9014 [label = "zenohd\n9014"]
+  zenoh__9018 [label = "zenohd\n9018"]
+  zenoh__9016 [label = "zenohd\n9016"]
+  zenoh__9011 [label = "zenohd\n9011"]
+  zenoh__9020 [label = "zenohd\n9020"]
+  zenoh__9009 [label = "zenohd\n9009"]
+  zenoh__9006 [label = "zenohd\n9006"]
+  zenoh__9008 [label = "zenohd\n9008"]
+  zenoh__9004 [label = "zenohd\n9004"]
+  zenoh__9002 [label = "zenohd\n9002"]
+
+  zenoh__9001 -- zenohd__9003 
+  zenoh__9001 -- zenohd__9019 
+  zenoh__9001 -- zenohd__9005
+  zenoh__9003 -- zenohd__9019 
+  zenoh__9003 -- zenohd__9007
+  zenoh__9019 -- zenohd__9007 
+  zenoh__9019 -- zenohd__9015
+  zenoh__9005 -- zenohd__9015
+  zenoh__9005 -- zenohd__9010
+  zenoh__9007 -- zenohd__9013
+  zenoh__9007 -- zenohd__9017
+  zenoh__9015 -- zenohd__9017
+  zenoh__9015 -- zenohd__9021
+  zenoh__9015 -- zenohd__9010
+  zenoh__9010 -- zenohd__9012
+  zenoh__9017 -- zenohd__9014
+  zenoh__9017 -- zenohd__9021
+  zenoh__9017 -- zenohd__9013
+  zenoh__9013 -- zenohd__9011
+  zenoh__9013 -- zenohd__9014
+  zenoh__9021 -- zenohd__9018
+  zenoh__9021 -- zenohd__9016
+  zenoh__9021 -- zenohd__9014
+  zenoh__9021 -- zenohd__9012
+  zenoh__9012 -- zenohd__9016
+  zenoh__9012 -- zenohd__9006
+  zenoh__9014 -- zenohd__9018
+  zenoh__9014 -- zenohd__9011
+  zenoh__9018 -- zenohd__9011
+  zenoh__9018 -- zenohd__9020
+  zenoh__9018 -- zenohd__9016
+  zenoh__9016 -- zenohd__9009
+  zenoh__9016 -- zenohd__9006
+  zenoh__9011 -- zenohd__9008
+  zenoh__9011 -- zenohd__9020
+  zenoh__9020 -- zenohd__9008
+  zenoh__9020 -- zenohd__9004
+  zenoh__9020 -- zenohd__9009
+  zenoh__9009 -- zenohd__9004
+  zenoh__9009 -- zenohd__9006
+  zenoh__9008 -- zenohd__9002
+  zenoh__9004 -- zenohd__9002
+}

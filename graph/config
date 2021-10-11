@@ -1,0 +1,7 @@
+{
+  scouting: {
+    multicast: {
+      enabled: false
+    }
+  }
+}

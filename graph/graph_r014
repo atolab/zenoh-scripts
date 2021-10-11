@@ -1,0 +1,45 @@
+graph mesh {
+  zenohd__9013 [label = "zenohd\n9013"]
+  zenohd__9014 [label = "zenohd\n9014"]
+  zenohd__9012 [label = "zenohd\n9012"]
+  zenohd__9011 [label = "zenohd\n9011"]
+  zenohd__9007 [label = "zenohd\n9007"]
+  zenohd__9006 [label = "zenohd\n9006"]
+  zenohd__9008 [label = "zenohd\n9008"]
+  zenohd__9005 [label = "zenohd\n9005"]
+  zenohd__9009 [label = "zenohd\n9009"]
+  zenohd__9004 [label = "zenohd\n9004"]
+  zenohd__9010 [label = "zenohd\n9010"]
+  zenohd__9003 [label = "zenohd\n9003"]
+  zenohd__9002 [label = "zenohd\n9002"]
+  zenohd__9001 [label = "zenohd\n9001"]
+
+  zenohd__9007 -- zenohd__9006
+  zenohd__9007 -- zenohd__9011
+  zenohd__9007 -- zenohd__9008
+  zenohd__9006 -- zenohd__9011
+  zenohd__9006 -- zenohd__9005
+  zenohd__9006 -- zenohd__9014
+  zenohd__9011 -- zenohd__9008
+  zenohd__9011 -- zenohd__9014
+  zenohd__9011 -- zenohd__9009
+  zenohd__9008 -- zenohd__9009
+  zenohd__9005 -- zenohd__9014
+  zenohd__9005 -- zenohd__9004
+  zenohd__9005 -- zenohd__9013
+  zenohd__9014 -- zenohd__9013
+  zenohd__9014 -- zenohd__9012
+  zenohd__9009 -- zenohd__9012
+  zenohd__9009 -- zenohd__9010
+  zenohd__9004 -- zenohd__9013
+  zenohd__9004 -- zenohd__9003
+  zenohd__9013 -- zenohd__9012
+  zenohd__9013 -- zenohd__9003
+  zenohd__9013 -- zenohd__9002
+  zenohd__9012 -- zenohd__9010
+  zenohd__9012 -- zenohd__9002
+  zenohd__9012 -- zenohd__9001
+  zenohd__9010 -- zenohd__9001
+  zenohd__9003 -- zenohd__9002
+  zenohd__9002 -- zenohd__9001
+}
